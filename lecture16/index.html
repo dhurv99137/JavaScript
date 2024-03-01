@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #data div img{
+            height: 200px;
+            width: auto;
+        }
+        #data{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="form">
+        <input type="text" placeholder="title" id="title"Required>
+        <input type="src" placeholder="img" id="img"Required>
+        <input type="number" placeholder="Price" id="Price"Required>
+        <input type="submit">
+    </form>
+    <hr>
+    <div id="data">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
